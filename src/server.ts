@@ -1,1 +1,1 @@
-console.log("testddando");
+export default {};
