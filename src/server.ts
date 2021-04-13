@@ -1,7 +1,7 @@
+import dotenv from "dotenv";
 import { createServer, IncomingMessage, ServerResponse } from "http";
 
-const port = 5000;
-
+dotenv.config();
 const server = createServer(
   (request: IncomingMessage, response: ServerResponse) => {
     switch (request.url) {
@@ -19,4 +19,4 @@ const server = createServer(
   }
 );
 
-server.listen(port, () => console.log(`[Server Started => Port ${port}]`));
+server.listen(process.env.PORT, () => console.log(`[Server Started => Port ${process.env.PORT}]`));
