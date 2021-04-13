@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npm run build && node build/server.js",
-    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node dist/server.js",
+    "build": "rimraf ./dist && tsc",
     "start:dev": "nodemon",
     "test": "jest"
   },
