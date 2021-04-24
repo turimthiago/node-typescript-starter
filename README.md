@@ -46,7 +46,7 @@ $ npm run start:dev
 
 ```
 >Scripts
-* **start:dev** Initialize for dev. Nodemon watch de changes;
+* **start:dev** Initialize for dev. Nodemon watch changes;
 * **start** Initialize for production. Compile de files; 
 * **test** Run the test flies;
 
